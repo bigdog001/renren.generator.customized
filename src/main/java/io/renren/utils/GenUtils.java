@@ -305,7 +305,7 @@ public class GenUtils {
     public static String getFileName(String template, String className, String packageName, String moduleName) {
         String packagePath = "main" + File.separator + "java" + File.separator;
         if (StringUtils.isNotBlank(packageName)) {
-            packagePath += packageName.replace(".", File.separator) + File.separator ;
+            packagePath += packageName.replace(".", File.separator) + File.separator +moduleName+File.separator ;
         }
         if (template.contains("MongoChildrenEntity.java.vm")) {
             return packagePath + "beans" + File.separator + "inner" + File.separator + currentTableName+ File.separator + splitInnerName(className)+ "InnerEntity.java";

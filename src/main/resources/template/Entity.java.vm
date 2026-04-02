@@ -1,4 +1,4 @@
-package ${package}.beans;
+package ${package}.${moduleName}.beans;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;

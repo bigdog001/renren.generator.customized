@@ -1,4 +1,4 @@
-package ${package}.service;
+package ${package}.${moduleName}.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import ${package}.beans.${className}Entity;

@@ -1,4 +1,4 @@
-package ${package}.beans;
+package ${package}.${moduleName}.beans;
 
 
 #if(${hasBigDecimal})
